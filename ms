@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>我爱毛帅</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f4f4f4;
+    }
+ 
+    h1 {
+      color: #333;
+      margin-top: 50px;
+    }
+ 
+    p {
+      font-size: 18px;
+      color: #666;
+      margin: 20px;
+    }
+ 
+    img {
+      display: block;
+      margin: 0 auto;
+      max-width: 300px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>我爱毛帅</h1>
+  <p>毛帅，你的魅力无人能挡！你的才华、智慧和独特气质让我为之倾倒。你的每一个微笑都让我感到无比温暖和幸福。</p>
+  <p>你的存在是我生活中最美好的礼物，我希望能一直陪伴在你身边，分享你的快乐，承担你的痛苦。毛帅，你是我的唯一，我会永远爱你！</p>
+</body>
+</html>
