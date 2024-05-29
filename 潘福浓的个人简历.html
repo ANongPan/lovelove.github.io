@@ -1,38 +1,139 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-  <title>我爱毛帅</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      background-color: #f4f4f4;
-    }
- 
-    h1 {
-      color: #333;
-      margin-top: 50px;
-    }
- 
-    p {
-      font-size: 18px;
-      color: #666;
-      margin: 20px;
-    }
- 
-    img {
-      display: block;
-      margin: 0 auto;
-      max-width: 300px;
-      height: auto;
-      margin-bottom: 20px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>潘福浓的个人介绍</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            background: #fff;
+            padding: 20px;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        header img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        footer {
+            padding: 10px;
+            color: #fff;
+            background-color: #333;
+            text-align: center;
+        }
+        .download-link {
+            display: block;
+            margin: 20px 0;
+            padding: 10px;
+            background: #333;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
-  <h1>我爱毛帅</h1>
-  <p>毛帅，你的魅力无人能挡！你的才华、智慧和独特气质让我为之倾倒。你的每一个微笑都让我感到无比温暖和幸福。</p>
-  <p>你的存在是我生活中最美好的礼物，我希望能一直陪伴在你身边，分享你的快乐，承担你的痛苦。毛帅，你是我的唯一，我会永远爱你！</p>
-  <img src="https://img2.baidu.com/it/u=1457896436,639695678&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500" alt="照片">
+<div class="container">
+    <header>
+        <h1>潘福浓的个人介绍</h1>
+        <img src="/Users/panfunong/Desktop/WechatIMG1639.jpg" alt="潘福浓的照片">
+    </header>
+
+    <a class="download-link" href="/Users/panfunong/Desktop/简历.pdf" download="潘福浓_简历.pdf">下载简历</a>
+
+    <section>
+        <h2>基本信息</h2>
+        <p>年龄：21</p>
+        <p>籍贯：辽宁省营口市</p>
+        <p>政治面貌：共青团员</p>
+        <p>电话：18640766671</p>
+        <p>邮箱：<a href="mailto:2803659551@qq.com">2803659551@qq.com</a></p>
+    </section>
+
+    <section>
+        <h2>教育背景</h2>
+        <p>大连交通大学 软件学院 软件工程专业（2021.09-2025.06）</p>
+        <ul>
+            <li>专业成绩：93.12/100 专业排名：1/129</li>
+            <li>综合成绩：92.71/100 综合排名：1/129</li>
+            <li>英语水平：CET-4、CET-6</li>
+            <li>荣誉奖项：校级三好学生（1次）、校级学习优等生（2次）、院级三好学生（1次）、校级奖学金（2次）</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>竞赛获奖</h2>
+        <ul>
+            <li>“枫叶优体”杯辽宁省大学生“互联网+儿童•生活•环境”创意项目大赛省级三等奖</li>
+            <li>2023年辽宁省第四届“中软国际一卓越杯”AI挑战赛省级二等奖</li>
+            <li>大连交通大学数学素养能力大赛校级一等奖</li>
+            <li>“外研社•国才杯”全国英语阅读大赛校级初赛三等奖</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>课程项目</h2>
+        <h3>共享电动车管理系统的设计与实现</h3>
+        <p>项目背景：为了更好地管理共享电动车的使用和用户信息，我们设计了一个共享电动车管理系统。该系统旨在通过数据库技术，实现对共享电动车、用户信息等数据的管理和存储，同时提供管理员管理功能，以便有效监控和维护系统。同时用户可以通过微信小程序来使用我们的共享电动车管理系统。</p>
+        <p>负责模块：主要责任是设计和实现共享电动车数据库部分。绘制E-R图，并据此设计了数据库表结构，确保了第三范式。设置了触发器来保障数据安全，还设计了存储过程方便用户和管理员查询信息。为了简化操作，创建了相关视图，并设置了完整性约束。利用自动化工具添加了相关数据，并进行了调试和测试，以确保数据库的各功能正常。确保系统能够高效、安全地存储和管理共享电动车、用户信息以及相关数据。</p>
+
+        <h3>基于深度学习的中国老龄人口死亡率预测研究</h3>
+        <p>项目背景：死亡率预测在计算预期寿命和评估长寿风险中扮演着关键角色，特别是考虑到死亡风险主要集中在老年阶段。所以旨在利用深度学习方法预测我国老年人口的死亡率，并与传统模型进行对比。使用了中国1995年至2019年中60-89岁男性和女性老年人口死亡率数据，构建了CNN模型、SimpleRNN模型和LSTM模型进行死亡率预测。得出未来年份我国男性与女性老龄人口死亡率逐渐降低，剩余寿命逐渐提高，且女性的预期寿命大于男性的实验结论。</p>
+        <p>负责模块：负责了整个模型的搭建和实验对比部分。使用了深度学习中的CNN、SimpleRNN和LSTM模型来预测中国老龄人口的死亡率，并与传统模型进行对比。利用《中国人口和就业统计年鉴》提供的数据集，结合性别变量，搭建神经网络模型。通过对比实验，SimpleRNN模型更适用于我国老龄人口死亡率数据，并且在各项检验中表现优于传统模型。</p>
+    </section>
+
+    <section>
+        <h2>社会实践</h2>
+        <ul>
+            <li>2023年辽宁省大学生寒假“返家乡”活动 营口市老边区宣传部</li>
+            <li>营口市献血志愿者</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>技术栈</h2>
+        <ul>
+            <li>掌握C、C++、Java、Python、SQL等编程语言，编程基础扎实，有良好的编码习惯。</li>
+            <li>掌握计算机网络、操作系统、数据库的基本内容。</li>
+            <li>掌握基本排序算法(快速排序、归并排序等)，了解二分查找、动态规划、贪心算法、BFS、DFS等常用算法。</li>
+            <li>掌握数据分析和数据可视化的基本内容。</li>
+            <li>掌握深度学习，了解CNN，RNN，LSTM以及GRU的原理以及代码实现。</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>自我评价</h2>
+        <p>在学习上，本人严谨认真，勤于律己，自学能力强，自入学以来专业成绩名列前茅。在平时的学习中，经常查阅计算机领域的相关的文献进行学习。在生活中，我善良，待人真诚，经常参加各类志愿服务活动。热爱锻炼身体，每周坚持跑步。具备抗挫折抗压能力，怀有一颗乐观上进的心。一次性通过了国家英语6级的考试，有良好的英语阅读以及写作能力。</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 潘福浓的个人介绍</p>
+</footer>
 </body>
 </html>
+
